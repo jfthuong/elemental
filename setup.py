@@ -35,7 +35,7 @@ setuptools.setup(
     ],
     keywords="selenium, testing",
     install_requires=[
-        "selenium>=3.141",
+        "selenium>=3.141, <4.10",
     ],
     python_requires=">=3.5",
 )
